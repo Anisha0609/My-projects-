@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="MY portfolio.css">
+    </head>
+    <body>
+        <div class="header">
+            <div class="container">
+                <nav>
+                    <img src="logoanisha.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href='#header'>HOME</a></li>
+                        <li><a href='#about'>ABOUT</a></li>
+                        <li><a href='#services'>SERVICES</a></li>
+                        <li><a href='#portfolio'>PORTFOLIO</a></li>
+                        <li><a href='#contact'>CONTACT</a></li>
+                        <div class='fas' onclick="closemenu()">&#10006</div>
+                    </ul>
+                    <div class='fas' onclick="openmenu()">&#926</div>
+                </nav>
+                <div class="header-text">
+                    <p><em><strong>Web Developer</strong></em></p>
+                    <h1><strong>Namaste World!</strong> </h1>
+                    <h1>I'm <span1>Anisha Singh</span1> From <span>INDIA</span></h1>
+                </div>
+            </div>
+        </div>
+        <!-- About -->
+        <div class="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="bg2.png" alt="" class="image">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur ullam quae illo error voluptas tempora pariatur, esse fugiat officiis perspiciatis voluptate. Distinctio harum voluptatem qui itaque numquam dolores delectus exercitationem.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Web Developer</span><br>Desinging website</li>
+                                <li><span>Python & Django</span><br>Full Stack Web Development</li>
+                                <li><span>Language, SQL, Framework, API</span><br>Python, MYsql, Django & Rest APIs </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>------------</span><br>------------</li>
+                                <li><span>------------</span><br>------------</li>
+                                <li><span>------------</span><br>------------</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2020-2023</span><br>BA History Honours from UNIVERSITY OF DELHI</li>
+                                <li><span>2023</span><br>Web Development Course from INTELIGENES TECHNOLOGIES</li>
+                                <li><span>2023</span><br>Python & Django Full Stack Web Developer from Online Platform 'UDEMY'</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!----------Services------------>
+        <div class="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Developer</h2>
+                        <p>Desinging website. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic accusantium aspernatur molestiae minima provident modi reiciendis quidem ipsa et, nobis necessitatibus, reprehenderit totam magnam harum maxime ut fuga! Odit, pariatur.</p>
+                        <a href="#">LEARN MORE</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-crop-simple"></i>
+                        <h2>Python & Django</h2>
+                        <p>A full-stack Web Deveploment. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic accusantium aspernatur molestiae minima provident modi reiciendis quidem ipsa et, nobis necessitatibus, reprehenderit totam magnam harum maxime ut fuga! Odit, pariatur.</p>
+                        <a href="#">LEARN MORE</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-app-store"></i>
+                        <h2>-------</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic accusantium aspernatur molestiae minima provident modi reiciendis quidem ipsa et, nobis necessitatibus, reprehenderit totam magnam harum maxime ut fuga! Odit, pariatur.</p>
+                        <a href="#">LEARN MORE</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ------------portfolio---------- -->
+        <div class="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <table>
+                    <tr>
+                        <td> <a href="amzone clone/index.html" ><img height="200px" width="400px" src="amzone clone/amazon clone.png" alt=""></a>
+                            <div class="layer">
+                             <h3>An AMAZON CLONE PROJECT</h3>
+                             <p>Click On The Image!! So You get to see this project</p>
+                            </div> </td>
+                        <td>  <a href="#" ><img height="200px" width="400px" src="full stack web deveploment.png" alt=""></a>
+                            <div class="layer">
+                             <h3>Full Stack project</h3>
+                             <p>Click On The Image!! So You get to see this project</p>
+                            </div> </td>
+                        <td>  <a href="#" ><img height="200px" width="400px" src="python & django projects.png" alt=""></a>
+                            <div class="layer">
+                             <h3>Python & Django project</h3>
+                             <p>Click On The Image!! So You get to see this project</p>
+                            </div> </td>
+                        <!-- <td> <a href="#" ><img height="100px" width="200px" src="python & django projects.png" alt=""></a>
+                            <div class="layer">
+                             <h3> Python & Django PROJECT</h3>
+                             <p>Click On The Image!! So You get to see this  project</p>
+                            </div> </td>
+                        <td>  <a href="#" ><img height="100px" width="200px" src="crud django project.png" alt=""></a>
+                            <div class="layer">
+                             <h3> CRUD PROJECT</h3>
+                             <p>Click On The Image!! So You get to see this project</p>
+                            </div> </td> -->
+                    </tr>
+                </table>
+                <a href="#" class="btn">See more</a>
+            </div>
+        </div>
+        <!-- -----------contact----------- -->
+        <div class="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><img src="sendmessage.png" alt="">anishasingh@gmail.com</p>
+                        <P><img src="phone.png" alt="">9289677693</P>
+                        <div class="social-icons">
+                            <a href="#"><img src='linkdin.png' alt=''></a>
+                            <a href="https://www.instagram.com/lost_person0902/"><img src='insta.png' alt=''></a>
+                        </div>
+                        <a href="#" download class="btn btn2">Download Resume </a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input  type="text"  name="Name"placeholder="Your Name" required>
+                            <br>
+                            <br>
+                            <input  type="Email" name="Email" placeholder=" Your Email  : xyz123@gamail.com " required>
+                            <br>
+                            <br>
+                            <textarea name="Message" cols="100" rows="10" placeholder="Your Message" required></textarea>
+                            <br>
+                            <a href=""><button class="btn3"><strong>SUBMIT</strong></button></a>
+                            </button> 
+                        </form>
+                        <span4 id="msg"></span4>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright <span2>&#169</span2>Anisha. Made by Easy Tutorials</p>
+            </div>
+        </div>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbxSk5h0leWLDgtpCkysW8QFmNBLVBCTdGg7o4s3WBevEMRGdqcbxLYj7G9Fs_pFQKZY/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg=document.getElementById("msg")
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML="Message sent successfully"
+                    setTimeout(function(){
+                        msg.innerHTML = ""
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+
+    </body>
+    <script src="MY portfolio.js"></script>
+</html>
